@@ -23,4 +23,4 @@ Each file represents a day of learning:
 Run any file using:
 
 ```bash
-python day1.py
+day_n.py
