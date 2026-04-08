@@ -97,3 +97,19 @@ print(f"After huge calculations, we got only {len(cricketer)} cricketers left in
 # ['jasprit bumrah', 'ms dhoni', 'sachin tendulkar', 'virat kohli']
 # After huge calculations, we got only 3 cricketers left in our list.
 
+                            # TRY IT YOURSELF 
+# Trying to get inentional error
+# Lets take our previous code and try to  get an error.
+
+                       # Try it Yourself
+invited_people = ['albert einstein','marie curie','galileo galilei','nikola tesla' ]
+del invited_people[0]
+del invited_people[1]
+print(f"You are most welcome {invited_people[2]} to the dinner party tonight.")
+# Traceback (most recent call last):
+#  File "d:\python\hello.py", line 9, in <module>
+#   print(f"You are most welcome {invited_people[2]} to the dinner party tonight.")
+# IndexError: list index out of range
+# We have deleted the first and second element, so the list becomes empty.
+
+
