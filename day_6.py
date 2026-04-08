@@ -7,7 +7,7 @@ print(cars) # Output: ['audi', 'bmw', 'subaru', 'toyota']
 cars.sort(reverse=True)
 print(cars) # Output: ['toyota', 'subaru', 'bmw', 'audi']   
 # You can also sort a list temporarily by using the sorted() function. [Temporarily]
-cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars = ['bmw', 'audi', 'toyota', 'subaru'] 
 print(f"Here is the original list :\n\t{cars}") #
 print(f"\nHere is the sorted list :\n{sorted(cars)}")
 print(f"\nHere is the original list again :\n\t{cars}")
